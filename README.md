@@ -14,9 +14,13 @@ In this homework i needed to create a game with a 16x16 map on an 8x8 led Matrix
  - passive buzzer
 
 ## Circuit:
+![matrix-1](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/04488add-56c3-4c97-92c3-954e4a821ec9)
+![matrix-2](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/59f27eca-f827-4fa5-bf8d-7e8a7aa8f4ef)
+Demo can be viewed at: https://youtu.be/ks3EWWa9jfk
 
  ## implementation details
 ### Game:
 - Because the map is 16x16 and the led matrix is 8x8, only part of a map can be visible at any given time, this is implemented by defining a "field of view" square of 8x8, all we need to define this field of view square is the X and Y coordinate of the upper left corner of the square, if we know that point we know all we need about the square
 - Considering we're dealing with a matrix and we have the player and the goal's X,Y coordinates, it's very easy to calculate the distance between the two, i chose to calculate the euclidian distance (in a straight line) over other distance types for no particular reason. the maximum possible distance would be if the player and the goal point are diagonally opposed, and considering the map is 16x16 this means the maximum distance is 16 * rad(2) = 22, we'll be using this value to map the distance (0-22) to analogWrite's limits (0-255)
+
 
