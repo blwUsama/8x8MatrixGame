@@ -14,7 +14,7 @@ In this homework i needed to create a game with a 16x16 map on an 8x8 led Matrix
  - passive buzzer
 
 ## Circuit:
-![matrix-1](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/04488add-56c3-4c97-92c3-954e4a821ec9)
+![matrix-1](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/4755f6ca-6930-454a-9f50-19ff0f861e9c)
 ![matrix-2](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/59f27eca-f827-4fa5-bf8d-7e8a7aa8f4ef)
 Demo can be viewed at: https://youtu.be/ks3EWWa9jfk
 
