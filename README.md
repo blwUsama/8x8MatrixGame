@@ -15,7 +15,8 @@ In this homework i needed to create a game with a 16x16 map on an 8x8 led Matrix
 
 ## Circuit:
 ![matrix-1](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/4755f6ca-6930-454a-9f50-19ff0f861e9c)
-![matrix-2](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/59f27eca-f827-4fa5-bf8d-7e8a7aa8f4ef)
+![matrix-2](https://github.com/blwUsama/8x8MatrixGame/assets/95240433/742d440a-f5aa-4582-b92a-5df3e50fc09f)
+
 Demo can be viewed at: https://youtu.be/ks3EWWa9jfk
 
  ## implementation details
